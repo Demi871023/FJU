@@ -3,6 +3,7 @@
 #include <iostream>
 #include <random>
 #include <ctime>
+#include <cstring>
 
 #define trainingMAXN 1005
 #define testMAXN 45
