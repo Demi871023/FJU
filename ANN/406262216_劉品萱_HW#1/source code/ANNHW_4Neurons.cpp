@@ -9,26 +9,20 @@
 #define testMAXN 45
 #define useProperty 3
 #define useNeurons 4
+#define learningRate 1
+
+/*   兩個神經元              四個神經元
+  class W = {1,1}  ｜   class W = {1,0,0,0}
+  class O = {0,1}  ｜   class O = {0,1,0,0}
+  class P = {0,0}  ｜   class P = {0,0,1,0}
+  class B = {1,0}  ｜   class B = {0,0,0,1}
+*/
 
 struct Training_Point
 {
     double p1, p2, p3;
     char fruit;
     int t1, t2, t3, t4;
-
-    /*  四個神經元
-        class W = {1,0,0,0}
-        class O = {0,1,0,0}
-        class P = {0,0,1,0}
-        class B = {0,0,0,1}
-    */
-
-    /*  兩個神經元
-        class W = {1,1}
-        class O = {0,1}
-        class P = {0,0}
-        class B = {1,0}
-    */
 };
 
 struct Testing_Point
@@ -37,13 +31,8 @@ struct Testing_Point
     int t1, t2, t3, t4;
 };
 
-//double initM[2][2] = {-1, 1, 1, 2};
-//double initb[2][1] = {1, -2};
-
 double initM[useNeurons][useProperty];
 double initb[useNeurons][1];
-//double finalM[4][3];
-//double finalb[4][1];
 
 int error[useNeurons][1];
 int a[useNeurons][1];
@@ -59,18 +48,6 @@ double fRand(double fMin, double fMax)
     double f = (double)rand() / RAND_MAX;
     return fMin + f * (fMax - fMin);
 }
-
-// 初始化
-void init()
-{
-    memset(initM, 0, sizeof(initM));
-    memset(initb, 0, sizeof(initb));
-    //memset(finalM, 0, sizeof(finalM));
-    //memset(finalb, 0, sizeof(finalb));
-    memset(error, 0, sizeof(error));
-    memset(a, 0, sizeof(a));
-}
-
 
 // 以亂數產生 M 以及 b
 void setup()
@@ -148,7 +125,6 @@ void setupTarget(char c, int i)
             trainingP[i].t4 = 1;
         }
     }
-    
 }
 
 // Transfer Function
@@ -160,9 +136,12 @@ int hardlim(double n)
         return 0;
 }
 
-// 確認有無 error，若有error，則回傳 true，進行更新 M 以及 b。
+// 確認有無 error
+// 若有error，則回傳 true，更新 M 以及 b。
+// 若皆為 0，則回傳 false，無須更新。
 bool testError(int n)
 {
+    // 初始化 error array
     memset(error, 0, sizeof(error));
     bool change = false;
     for(int i = 0 ; i < useNeurons ; i++)
@@ -178,36 +157,28 @@ bool testError(int n)
         
         if(error[i][0] != 0)
             change = true;
-        //printf("%d\n", error[i][0]);
     }
     return change;
 }
 
-// 更新新的 M 以及 b
+// 更新 M 以及 b
 void change(int n)
 {
-    //printf("\nP%d change!\n", n);
-    //printf("%lf, %lf, %lf\n", testP[n].p1, testP[n].p2, testP[n].p3);
     for(int i = 0 ; i < useNeurons ; i++)
     {
         for(int j = 0 ; j < useProperty ; j++)
         {
-            //printf("fajflajflajfljfljf\n");
             if(j == 0)
-                initM[i][j] = initM[i][j] + (error[i][0] * trainingP[n].p1);
+                initM[i][j] = initM[i][j] + learningRate * (error[i][0] * trainingP[n].p1);
             else if(j == 1)
-                initM[i][j] = initM[i][j] + (error[i][0] * trainingP[n].p2);
+                initM[i][j] = initM[i][j] + learningRate * (error[i][0] * trainingP[n].p2);
             else if(j == 2)
-                initM[i][j] = initM[i][j] + (error[i][0] * trainingP[n].p3);  
-
-            //printf("\n~~~%lf ~~~\n", initM[i][j]);
+                initM[i][j] = initM[i][j] + learningRate * (error[i][0] * trainingP[n].p3);  
         }
     }
-    //printf("bias\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
-        initb[i][0] = initb[i][0] + error[i][0];
-        //printf("\n/// %lf ///\n", initb[i][0]);
+        initb[i][0] = initb[i][0] + learningRate * error[i][0];
     }
 }
 
@@ -227,13 +198,7 @@ void training(int un, int up)
             break;
         epochCheck++;
         for(int n = 0 ; n < trainNum ; n++)
-        {
-            /* M                     ｜   ｂ
-            [0][0] [0][1] [0][2]     ｜  [0][0]
-            [1][0] [1][1] [1][2]     ｜  [1][0]
-            [2][0] [2][1] [2][2]     ｜  [2][0]
-            */                       
-            
+        {                      
             memset(a, 0, sizeof(a));
             for(int i = 0 ; i < un ; i++)
             {
@@ -263,12 +228,6 @@ void training(int un, int up)
 char testClass()
 {
 
-    /*  兩個神經元
-        class W = {1,1}
-        class O = {0,1}
-        class P = {0,0}
-        class B = {1,0}
-    */
     if(useNeurons == 2)
     {
         if(a[0][0] == 1 && a[1][0] == 1)
@@ -282,13 +241,6 @@ char testClass()
         else
             return '?';
     }
-
-    /*  四個神經元
-        class W = {1,0,0,0}
-        class O = {0,1,0,0}
-        class P = {0,0,1,0}
-        class B = {0,0,0,1}
-    */
     if(useNeurons == 4)
     {
         if(a[0][0] == 1 && a[1][0] == 0 && a[2][0] == 0 && a[3][0] == 0)
@@ -307,8 +259,6 @@ char testClass()
 
 char testing(int un, int up, int n)
 {
-    //int testNum = 40;
- 
     memset(a, 0, sizeof(a));
     for(int i = 0 ; i < un ; i++)
     {
@@ -326,15 +276,15 @@ char testing(int un, int up, int n)
         a[i][0] = hardlim(netinput);
     }
     return testClass();
-
 }
 
 int main()
 {
-    //init();
+
     srand(time(NULL));
     setup();
 
+    // Initial Weight
     printf("\nInitial weights:\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
@@ -345,12 +295,14 @@ int main()
         printf("\n");
     }
 
+    // Initial biases
     printf("\nInitial biases:\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
         printf("%lf\n", initb[i][0]);
     }
 
+    // Read data from training_data.txt file
     freopen("training_data.txt", "r", stdin);
 
     for(int i = 0 ; i < 1000 ; i++)
@@ -359,10 +311,13 @@ int main()
         setupTarget(trainingP[i].fruit, i);
     }
 
+    // 開始訓練
     training(useNeurons, useProperty);
     
+    // 最後停止世代數
     printf("\nEnd epoch number: %d\n", epochCheck);
 
+    // Final Weight
     printf("\nFinal weight:\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
@@ -373,19 +328,21 @@ int main()
         printf("\n");
     }
 
+    // Final biases
     printf("\nFinal biases:\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
         printf("%lf\n", initb[i][0]);
     }
 
+    // Read data from testing_data.txt file
     freopen("testing_data.txt", "r", stdin);
     
+    // 開始測試
     printf("\nTest data:\n");
     for(int i = 0 ; i < 40 ; i++)
     {
         scanf("%lf %lf %lf", &testP[i].p1, &testP[i].p2, &testP[i].p3);
         printf("%d%c ", i+1, testing(useNeurons, useProperty, i));
     }
-    
 }
