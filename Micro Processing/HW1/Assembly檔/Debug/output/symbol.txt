@@ -1,0 +1,50 @@
+         w __post_c_init
+         w __pre_c_init
+         w _arg_init
+         w _call_exit
+00000001 a multiple
+00000002 a test
+00000065 a num
+00300000 W _RELAX_END_
+00300004 T _start
+00300078 T main	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:28
+00300078 T memcpy	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:28
+0030008c t .initial	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:39
+003000a8 t .start	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:54
+003000bc t .isPrime	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:65
+003000d6 t .nochangline	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:74
+003000ec t .check	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:82
+003000f2 t .secondwhile	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:86
+00300110 t .NextRound	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:97
+00300118 t .Finish	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:101
+00300124 t number	/cygdrive/c/WorkSpace/AndeSight/test/Debug/../hw.s:103
+003002b8 T printf
+003002d4 t vprintf_help
+003002f4 T vprintf
+00300330 t sep_frac
+0030036e T double2dec
+003009a2 T abs
+003009ac T do_printf
+00300fe4 T nds_write
+00301000 T strcpy
+00301010 T strlen
+0030101c T __gedf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:4965
+0030101c T __gtdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:4965
+00301020 T __cmpdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00301020 T __eqdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00301020 T __ledf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00301020 T __ltdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00301020 T __nedf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+0030108c T __lshrdi3	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/libgcc2.c:403
+003010b4 T __ashldi3	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/libgcc2.c:431
+0030112c D _impure_ptr
+00301130 B __bss_start
+00301130 B _edata
+00301130 b output_idx
+00301134 W _FP_BASE_
+00301134 W _SDA_BASE_
+00301134 b output_buff
+00301138 B _NDS32_REENT__errno
+0030113c b impure_data
+00301140 B _end
+00780000 A _stack

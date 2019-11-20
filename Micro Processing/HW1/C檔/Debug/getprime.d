@@ -1,0 +1,1 @@
+getprime.d: ../getprime.c

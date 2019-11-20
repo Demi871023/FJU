@@ -1,0 +1,162 @@
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Andes Technology compact code size embedded RISC processor family
+  Version:                           0x1
+  Entry point address:               0x300004
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          36128 (bytes into file)
+  Flags:                             0x40010042, AABI, Andes ELF V1.4, Andes Star v3.0m, 16REG
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         1
+  Size of section headers:           40 (bytes)
+  Number of section headers:         18
+  Section header string table index: 15
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .nds32_init       PROGBITS        00300000 001000 000004 00  AX  0   0  1
+  [ 2] .text             PROGBITS        00300004 001004 000f46 00  AX  0   0  4
+  [ 3] .rodata           PROGBITS        00300f4c 001f4c 00002c 01 AMS  0   0  4
+  [ 4] .data             PROGBITS        00300f80 001f80 000004 00  WA  0   0  4
+  [ 5] .bss              NOBITS          00300f84 001f84 000010 00  WA  0   0  4
+  [ 6] .comment          PROGBITS        00000000 001f84 00002f 01  MS  0   0  1
+  [ 7] .debug_aranges    PROGBITS        00000000 001fb8 000080 00      0   0  8
+  [ 8] .debug_info       PROGBITS        00000000 002038 0005f4 00      0   0  1
+  [ 9] .debug_abbrev     PROGBITS        00000000 00262c 000317 00      0   0  1
+  [10] .debug_line       PROGBITS        00000000 002943 0006e8 00      0   0  1
+  [11] .debug_frame      PROGBITS        00000000 00302c 000078 00      0   0  4
+  [12] .debug_str        PROGBITS        00000000 0030a4 004843 01  MS  0   0  1
+  [13] .debug_loc        PROGBITS        00000000 0078e7 000211 00      0   0  1
+  [14] .debug_macro      PROGBITS        00000000 007af8 00117a 00      0   0  1
+  [15] .shstrtab         STRTAB          00000000 008c72 0000ae 00      0   0  1
+  [16] .symtab           SYMTAB          00000000 008ff0 000600 10     17  62  4
+  [17] .strtab           STRTAB          00000000 0095f0 0002aa 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset   VirtAddr   PhysAddr   FileSiz MemSiz  Flg Align
+  LOAD           0x001000 0x00300000 0x00300000 0x00f84 0x00f94 RWE 0x1000
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .nds32_init .text .rodata .data .bss 
+
+There is no dynamic section in this file.
+
+There are no relocations in this file.
+
+The decoding of unwind sections for machine type Andes Technology compact code size embedded RISC processor family is not currently supported.
+
+Symbol table '.symtab' contains 96 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00300000     0 SECTION LOCAL  DEFAULT    1 
+     2: 00300004     0 SECTION LOCAL  DEFAULT    2 
+     3: 00300f4c     0 SECTION LOCAL  DEFAULT    3 
+     4: 00300f80     0 SECTION LOCAL  DEFAULT    4 
+     5: 00300f84     0 SECTION LOCAL  DEFAULT    5 
+     6: 00000000     0 SECTION LOCAL  DEFAULT    6 
+     7: 00000000     0 SECTION LOCAL  DEFAULT    7 
+     8: 00000000     0 SECTION LOCAL  DEFAULT    8 
+     9: 00000000     0 SECTION LOCAL  DEFAULT    9 
+    10: 00000000     0 SECTION LOCAL  DEFAULT   10 
+    11: 00000000     0 SECTION LOCAL  DEFAULT   11 
+    12: 00000000     0 SECTION LOCAL  DEFAULT   12 
+    13: 00000000     0 SECTION LOCAL  DEFAULT   13 
+    14: 00000000     0 SECTION LOCAL  DEFAULT   14 
+    15: 00000000     0 FILE    LOCAL  DEFAULT  ABS /cygdrive/c/Andestech/And
+    16: 00300000     0 NOTYPE  LOCAL  DEFAULT    1 $c
+    17: 00300004     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    18: 00000000     0 FILE    LOCAL  DEFAULT  ABS getprime.c
+    19: 00300078     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    20: 00000000     0 FILE    LOCAL  DEFAULT  ABS printf.c
+    21: 003000ea     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    22: 00000000     0 FILE    LOCAL  DEFAULT  ABS lib_a-putchar.o
+    23: 00300108     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    24: 00000000     0 FILE    LOCAL  DEFAULT  ABS puts.c
+    25: 00300128     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    26: 00000000     0 FILE    LOCAL  DEFAULT  ABS vprintf.c
+    27: 00300144    32 FUNC    LOCAL  DEFAULT    2 vprintf_help
+    28: 00300144     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    29: 00300f84     4 OBJECT  LOCAL  DEFAULT    5 output_idx
+    30: 00300f88     4 OBJECT  LOCAL  DEFAULT    5 output_buff
+    31: 00300164     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    32: 00000000     0 FILE    LOCAL  DEFAULT  ABS xint2dec.c
+    33: 003001a0    62 FUNC    LOCAL  DEFAULT    2 sep_frac
+    34: 003001a0     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    35: 003001de     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    36: 00000000     0 FILE    LOCAL  DEFAULT  ABS abs.c
+    37: 00300812     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    38: 00000000     0 FILE    LOCAL  DEFAULT  ABS do_printf.c
+    39: 0030081c     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    40: 0030085c     0 NOTYPE  LOCAL  DEFAULT    2 $d1
+    41: 0030085e     0 NOTYPE  LOCAL  DEFAULT    2 $d1
+    42: 00300860     0 NOTYPE  LOCAL  DEFAULT    2 $d1
+    43: 00300862     0 NOTYPE  LOCAL  DEFAULT    2 $d1
+    44: 00300864     0 NOTYPE  LOCAL  DEFAULT    2 $d1
+    45: 00300866     0 NOTYPE  LOCAL  DEFAULT    2 $d1
+    46: 00300868     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    47: 00000000     0 FILE    LOCAL  DEFAULT  ABS impure.c
+    48: 00300f90     4 OBJECT  LOCAL  DEFAULT    5 impure_data
+    49: 00000000     0 FILE    LOCAL  DEFAULT  ABS lib_a-nds_write.o
+    50: 00300e54     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    51: 00000000     0 FILE    LOCAL  DEFAULT  ABS lib_a-strcpy.o
+    52: 00300e70     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    53: 00000000     0 FILE    LOCAL  DEFAULT  ABS lib_a-strlen.o
+    54: 00300e80     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    55: 00000000     0 FILE    LOCAL  DEFAULT  ABS _compare_df.o
+    56: 00300e8c     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    57: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    58: 00300efc     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    59: 00000000     0 FILE    LOCAL  DEFAULT  ABS libgcc2.c
+    60: 00300f24     0 NOTYPE  LOCAL  DEFAULT    2 $c
+    61: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+    62: 00300108    32 FUNC    GLOBAL DEFAULT    2 putchar
+    63: 00300e70    14 FUNC    GLOBAL DEFAULT    2 strcpy
+    64: 00300f24    38 FUNC    GLOBAL HIDDEN     2 __ashldi3
+    65: 00300e90   106 FUNC    GLOBAL HIDDEN     2 __cmpdf2
+    66: 00300e90   106 FUNC    GLOBAL HIDDEN     2 __eqdf2
+    67: 003000ea    28 FUNC    GLOBAL DEFAULT    2 printf
+    68: 00300e8c   110 FUNC    GLOBAL HIDDEN     2 __gtdf2
+    69: 00300e90   106 FUNC    GLOBAL HIDDEN     2 __ltdf2
+    70: 00300128    28 FUNC    GLOBAL DEFAULT    2 puts
+    71: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _arg_init
+    72: 0030081c  1590 FUNC    GLOBAL DEFAULT    2 do_printf
+    73: 00300efc    40 FUNC    GLOBAL HIDDEN     2 __lshrdi3
+    74: 00300e90   106 FUNC    GLOBAL HIDDEN     2 __ledf2
+    75: 00300164    60 FUNC    GLOBAL DEFAULT    2 vprintf
+    76: 00300f88     0 NOTYPE  WEAK   DEFAULT    4 _FP_BASE_
+    77: 00300004   116 FUNC    GLOBAL DEFAULT    2 _start
+    78: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __pre_c_init
+    79: 00300f88     0 NOTYPE  WEAK   DEFAULT    4 _SDA_BASE_
+    80: 00300000     0 NOTYPE  WEAK   DEFAULT    1 _RELAX_END_
+    81: 00300f84     0 NOTYPE  GLOBAL DEFAULT    5 __bss_start
+    82: 00300078   114 FUNC    GLOBAL DEFAULT    2 main
+    83: 00000000     0 NOTYPE  WEAK   DEFAULT  UND __post_c_init
+    84: 00300f8c     4 OBJECT  GLOBAL DEFAULT    5 _NDS32_REENT__errno
+    85: 00300e90   106 FUNC    GLOBAL HIDDEN     2 __nedf2
+    86: 00300f80     4 OBJECT  GLOBAL DEFAULT    4 _impure_ptr
+    87: 003001de  1588 FUNC    GLOBAL DEFAULT    2 double2dec
+    88: 00300f84     0 NOTYPE  GLOBAL DEFAULT    5 _edata
+    89: 00300f94     0 NOTYPE  GLOBAL DEFAULT    5 _end
+    90: 00300e80    12 FUNC    GLOBAL DEFAULT    2 strlen
+    91: 00300e8c   110 FUNC    GLOBAL HIDDEN     2 __gedf2
+    92: 00780000     0 NOTYPE  GLOBAL DEFAULT  ABS _stack
+    93: 00300812     8 FUNC    GLOBAL DEFAULT    2 abs
+    94: 00300e54    26 FUNC    GLOBAL DEFAULT    2 nds_write
+    95: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _call_exit
+
+No version information found in this file.

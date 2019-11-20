@@ -1,0 +1,39 @@
+         w __post_c_init
+         w __pre_c_init
+         w _arg_init
+         w _call_exit
+00300000 W _RELAX_END_
+00300004 T _start
+00300078 T main	/cygdrive/c/WorkSpace/AndeSight/HW1/Debug/../getprime.c:4
+003000ea T printf
+00300108 T putchar
+00300128 T puts
+00300144 t vprintf_help
+00300164 T vprintf
+003001a0 t sep_frac
+003001de T double2dec
+00300812 T abs
+0030081c T do_printf
+00300e54 T nds_write
+00300e70 T strcpy
+00300e80 T strlen
+00300e8c T __gedf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:4965
+00300e8c T __gtdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:4965
+00300e90 T __cmpdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00300e90 T __eqdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00300e90 T __ledf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00300e90 T __ltdf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00300e90 T __nedf2	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/config/nds32/lib1asmsrc-mculib.S:5011
+00300efc T __lshrdi3	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/libgcc2.c:403
+00300f24 T __ashldi3	/home/sqa/build-ast211/build-2015-08-21/source-packages/gcc-4.9.2-bsp-v4_0_2-branch/libgcc/libgcc2.c:431
+00300f80 D _impure_ptr
+00300f84 B __bss_start
+00300f84 B _edata
+00300f84 b output_idx
+00300f88 W _FP_BASE_
+00300f88 W _SDA_BASE_
+00300f88 b output_buff
+00300f8c B _NDS32_REENT__errno
+00300f90 b impure_data
+00300f94 B _end
+00780000 A _stack

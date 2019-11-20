@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="config.nds32le-elf-mculib-v3m.exe.debug.211292559">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="config.nds32le-elf-mculib-v3m.exe.debug.211292559" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="adx" artifactName="${ProjName}" buildArtefactType="nds.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=nds.buildArtefactType.exe" description="" id="config.nds32le-elf-mculib-v3m.exe.debug.211292559" name="Debug" parent="config.nds32le-elf-mculib-v3m.exe.debug">
+					<folderInfo id="config.nds32le-elf-mculib-v3m.exe.debug.211292559." name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-mculib-v3m.exe.debug.1146159900" name="nds32le-elf-mculib-v3m" superClass="nds.nds32le-elf-mculib-v3m.exe.debug">
+							<targetPlatform id="target.nds32le-elf-mculib-v3m.platform.exe.debug.21759300" name="Debug Platform" superClass="target.nds32le-elf-mculib-v3m.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/${ProjName}/Debug}" id="target.nds32le-elf-mculib-v3m.builder.exe.debug.99183152" managedBuildOn="true" name="Andes Make Builder.Debug" superClass="target.nds32le-elf-mculib-v3m.builder.exe.debug"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.archiver.base.2026968249" name="Andes Archiver" superClass="tool.nds32le-elf-mculib-v3m.archiver.base"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.cpp.compiler.exe.debug.384827266" name="Andes C++ Compiler" superClass="tool.nds32le-elf-mculib-v3m.cpp.compiler.exe.debug">
+								<option id="nds32le-elf-mculib-v3m.cpp.compiler.exe.debug.option.debugging.level.415383039" superClass="nds32le-elf-mculib-v3m.cpp.compiler.exe.debug.option.debugging.level" value="nds.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.cpp.linker.exe.debug.1685959290" name="Andes C++ Linker" superClass="tool.nds32le-elf-mculib-v3m.cpp.linker.exe.debug">
+								<option defaultValue="-O0" id="nds.cpp.link.option.optimization.level.899053331" superClass="nds.cpp.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v3m.cpp.link.option.noshared.base.459314244" superClass="nds32le-elf-mculib-v3m.cpp.link.option.noshared.base" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.c.compiler.exe.debug.1006941979" name="Andes C Compiler" superClass="tool.nds32le-elf-mculib-v3m.c.compiler.exe.debug">
+								<option id="nds32le-elf-mculib-v3m.c.compiler.exe.debug.option.debugging.level.977258758" superClass="nds32le-elf-mculib-v3m.c.compiler.exe.debug.option.debugging.level" value="nds.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="tool.nds.c.compiler.input.1214727304" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.c.linker.exe.debug.824315857" name="Andes C Linker" superClass="tool.nds32le-elf-mculib-v3m.c.linker.exe.debug">
+								<option defaultValue="-O0" id="nds.c.link.option.optimization.level.1019735677" superClass="nds.c.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v3m.c.link.option.noshared.base.511081127" superClass="nds32le-elf-mculib-v3m.c.link.option.noshared.base" valueType="boolean"/>
+								<inputType id="tool.nds.c.linker.input.1687402498" superClass="tool.nds.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.assembler.exe.debug.914607336" name="Andes Assembler" superClass="tool.nds32le-elf-mculib-v3m.assembler.exe.debug">
+								<option defaultValue="-g" id="nds.both.asm.option.flags.1613154471" superClass="nds.both.asm.option.flags" valueType="string"/>
+								<inputType id="tool.nds.assembler.input.753386137" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.nm.exe.debug.601011364" name="NM (symbol listing)" superClass="tool.nds32le-elf-mculib-v3m.nm.exe.debug"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.readelf.exe.debug.1543611959" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-mculib-v3m.readelf.exe.debug"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.objdump.exe.debug.220421489" name="Objdump (disassembly)" superClass="tool.nds32le-elf-mculib-v3m.objdump.exe.debug"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.objcopy.exe.debug.871684053" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-mculib-v3m.objcopy.exe.debug"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.size.exe.debug.2100782516" name="Size (section size listing)" superClass="tool.nds32le-elf-mculib-v3m.size.exe.debug"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.ldsag.exe.debug.733791021" name="LdSaG Tool" superClass="tool.nds32le-elf-mculib-v3m.ldsag.exe.debug"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="config.nds32le-elf-mculib-v3m.exe.release.2008597023">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="config.nds32le-elf-mculib-v3m.exe.release.2008597023" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="com.andestech.ide.cdt.managedbuilder.core.CROSS_GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="adx" artifactName="${ProjName}" buildArtefactType="nds.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=nds.buildArtefactType.exe" description="" id="config.nds32le-elf-mculib-v3m.exe.release.2008597023" name="Release" parent="config.nds32le-elf-mculib-v3m.exe.release">
+					<folderInfo id="config.nds32le-elf-mculib-v3m.exe.release.2008597023." name="/" resourcePath="">
+						<toolChain id="nds.nds32le-elf-mculib-v3m.exe.release.434843114" name="nds32le-elf-mculib-v3m" superClass="nds.nds32le-elf-mculib-v3m.exe.release">
+							<targetPlatform id="target.nds32le-elf-mculib-v3m.platform.exe.release.1676850172" name="Debug Platform" superClass="target.nds32le-elf-mculib-v3m.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/${ProjName}/Release}" id="target.nds32le-elf-mculib-v3m.builder.exe.release.1818768767" managedBuildOn="true" name="Andes Make Builder.Release" superClass="target.nds32le-elf-mculib-v3m.builder.exe.release"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.archiver.base.1850167267" name="Andes Archiver" superClass="tool.nds32le-elf-mculib-v3m.archiver.base"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.cpp.compiler.exe.release.180064772" name="Andes C++ Compiler" superClass="tool.nds32le-elf-mculib-v3m.cpp.compiler.exe.release">
+								<option id="nds32le-elf-mculib-v3m.cpp.compiler.exe.release.option.optimization.level.307753867" superClass="nds32le-elf-mculib-v3m.cpp.compiler.exe.release.option.optimization.level" value="nds.cpp.compiler.optimization.level.space" valueType="enumerated"/>
+								<option id="nds32le-elf-mculib-v3m.cpp.compiler.exe.release.option.debugging.level.1147432277" superClass="nds32le-elf-mculib-v3m.cpp.compiler.exe.release.option.debugging.level" value="nds.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.cpp.linker.exe.release.966331227" name="Andes C++ Linker" superClass="tool.nds32le-elf-mculib-v3m.cpp.linker.exe.release">
+								<option defaultValue="-O3" id="nds.cpp.link.option.optimization.level.854709457" superClass="nds.cpp.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v3m.cpp.link.option.noshared.base.258216806" superClass="nds32le-elf-mculib-v3m.cpp.link.option.noshared.base" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.c.compiler.exe.release.148098324" name="Andes C Compiler" superClass="tool.nds32le-elf-mculib-v3m.c.compiler.exe.release">
+								<option id="nds32le-elf-mculib-v3m.c.compiler.exe.release.option.optimization.level.445922879" superClass="nds32le-elf-mculib-v3m.c.compiler.exe.release.option.optimization.level" value="nds.c.optimization.level.space" valueType="enumerated"/>
+								<option id="nds32le-elf-mculib-v3m.c.compiler.exe.release.option.debugging.level.1386206458" superClass="nds32le-elf-mculib-v3m.c.compiler.exe.release.option.debugging.level" value="nds.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="tool.nds.c.compiler.input.901979464" superClass="tool.nds.c.compiler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.c.linker.exe.release.131605604" name="Andes C Linker" superClass="tool.nds32le-elf-mculib-v3m.c.linker.exe.release">
+								<option defaultValue="-O3" id="nds.c.link.option.optimization.level.231567446" superClass="nds.c.link.option.optimization.level" valueType="string"/>
+								<option defaultValue="true" id="nds32le-elf-mculib-v3m.c.link.option.noshared.base.658544398" superClass="nds32le-elf-mculib-v3m.c.link.option.noshared.base" valueType="boolean"/>
+								<inputType id="tool.nds.c.linker.input.525874700" superClass="tool.nds.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.assembler.exe.release.1469205081" name="Andes Assembler" superClass="tool.nds32le-elf-mculib-v3m.assembler.exe.release">
+								<option defaultValue="-O3" id="nds.both.asm.option.flags.915955692" superClass="nds.both.asm.option.flags" valueType="string"/>
+								<inputType id="tool.nds.assembler.input.973550099" superClass="tool.nds.assembler.input"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.nm.exe.release.32486863" name="NM (symbol listing)" superClass="tool.nds32le-elf-mculib-v3m.nm.exe.release"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.readelf.exe.release.737871293" name="Readelf (ELF info listing)" superClass="tool.nds32le-elf-mculib-v3m.readelf.exe.release"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.objdump.exe.release.1549441995" name="Objdump (disassembly)" superClass="tool.nds32le-elf-mculib-v3m.objdump.exe.release"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.objcopy.exe.release.721458599" name="Objcopy (object content copy)" superClass="tool.nds32le-elf-mculib-v3m.objcopy.exe.release">
+								<option defaultValue="false" id="nds.objcopy.option.disable.1134860395" superClass="nds.objcopy.option.disable" valueType="boolean"/>
+							</tool>
+							<tool id="tool.nds32le-elf-mculib-v3m.size.exe.release.1983850929" name="Size (section size listing)" superClass="tool.nds32le-elf-mculib-v3m.size.exe.release"/>
+							<tool id="tool.nds32le-elf-mculib-v3m.ldsag.exe.release.1943249385" name="LdSaG Tool" superClass="tool.nds32le-elf-mculib-v3m.ldsag.exe.release"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="hw3.target.nds32le-elf-mculib-v3m.exe.1525844917" name="Andes Executable" projectType="target.nds32le-elf-mculib-v3m.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v3m.exe.debug.211292559;config.nds32le-elf-mculib-v3m.exe.debug.211292559.;tool.nds32le-elf-mculib-v3m.c.compiler.exe.debug.1006941979;tool.nds.c.compiler.input.1214727304">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="config.nds32le-elf-mculib-v3m.exe.release.2008597023;config.nds32le-elf-mculib-v3m.exe.release.2008597023.;tool.nds32le-elf-mculib-v3m.c.compiler.exe.release.148098324;tool.nds.c.compiler.input.901979464">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.andestech.ide.cdt.managedbuilder.core.ndsManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
