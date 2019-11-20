@@ -334,8 +334,7 @@ int main()
     srand(time(NULL));
     setup();
 
-    
-
+    printf("\nInitial weights:\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
         for(int j = 0 ; j < useProperty ; j++)
@@ -345,6 +344,7 @@ int main()
         printf("\n");
     }
 
+    printf("\nInitial biases:\n");
     for(int i = 0 ; i < useNeurons ; i++)
     {
         printf("%lf\n", initb[i][0]);
