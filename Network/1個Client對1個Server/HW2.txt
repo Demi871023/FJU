@@ -1,0 +1,2 @@
+This is a Network Homework 2!!
+Hello, Here is server.
