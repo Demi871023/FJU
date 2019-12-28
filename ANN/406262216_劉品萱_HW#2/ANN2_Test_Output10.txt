@@ -1,0 +1,720 @@
+
+---------------------------------------------
+Number of hidden neurons = 1
+Learning rates = 1
+Epoch：500000
+training accuracies = 66%
+testing accuracies = 66%
+
+---------------------------------------------
+Number of hidden neurons = 1
+Learning rates = 1
+Epoch：500000
+training accuracies = 66%
+testing accuracies = 66%
+
+---------------------------------------------
+Number of hidden neurons = 1
+Learning rates = 1
+Epoch：500000
+training accuracies = 67%
+testing accuracies = 66%
+
+---------------------------------------------
+Number of hidden neurons = 1
+Learning rates = 1
+Epoch：500000
+training accuracies = 66%
+testing accuracies = 66%
+
+---------------------------------------------
+Number of hidden neurons = 1
+Learning rates = 1
+Epoch：500000
+training accuracies = 70%
+testing accuracies = 70%
+Neuron 1 average epoch number is 500000
+
+---------------------------------------------
+Number of hidden neurons = 2
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 2
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 2
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 2
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 2
+Learning rates = 1
+Epoch：500000
+training accuracies = 66%
+testing accuracies = 66%
+Neuron 2 average epoch number is 500000
+
+---------------------------------------------
+Number of hidden neurons = 3
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 3
+Learning rates = 1
+Epoch：285854
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 3
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 3
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 3
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 96%
+Neuron 3 average epoch number is 457170
+
+---------------------------------------------
+Number of hidden neurons = 4
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 100%
+
+---------------------------------------------
+Number of hidden neurons = 4
+Learning rates = 1
+Epoch：150595
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 4
+Learning rates = 1
+Epoch：341763
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 4
+Learning rates = 1
+Epoch：128300
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 4
+Learning rates = 1
+Epoch：27055
+training accuracies = 98%
+testing accuracies = 93%
+Neuron 4 average epoch number is 229542
+
+---------------------------------------------
+Number of hidden neurons = 5
+Learning rates = 1
+Epoch：196135
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 5
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 90%
+
+---------------------------------------------
+Number of hidden neurons = 5
+Learning rates = 1
+Epoch：14257
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 5
+Learning rates = 1
+Epoch：35246
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 5
+Learning rates = 1
+Epoch：141881
+training accuracies = 97%
+testing accuracies = 96%
+Neuron 5 average epoch number is 177503
+
+---------------------------------------------
+Number of hidden neurons = 6
+Learning rates = 1
+Epoch：55977
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 6
+Learning rates = 1
+Epoch：15941
+training accuracies = 96%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 6
+Learning rates = 1
+Epoch：237056
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 6
+Learning rates = 1
+Epoch：115836
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 6
+Learning rates = 1
+Epoch：152935
+training accuracies = 99%
+testing accuracies = 90%
+Neuron 6 average epoch number is 115549
+
+---------------------------------------------
+Number of hidden neurons = 7
+Learning rates = 1
+Epoch：13792
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 7
+Learning rates = 1
+Epoch：234600
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 7
+Learning rates = 1
+Epoch：13928
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 7
+Learning rates = 1
+Epoch：45234
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 7
+Learning rates = 1
+Epoch：83072
+training accuracies = 98%
+testing accuracies = 93%
+Neuron 7 average epoch number is 78125
+
+---------------------------------------------
+Number of hidden neurons = 8
+Learning rates = 1
+Epoch：28047
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 8
+Learning rates = 1
+Epoch：500000
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 8
+Learning rates = 1
+Epoch：128251
+training accuracies = 98%
+testing accuracies = 100%
+
+---------------------------------------------
+Number of hidden neurons = 8
+Learning rates = 1
+Epoch：11080
+training accuracies = 98%
+testing accuracies = 90%
+
+---------------------------------------------
+Number of hidden neurons = 8
+Learning rates = 1
+Epoch：186979
+training accuracies = 98%
+testing accuracies = 96%
+Neuron 8 average epoch number is 170871
+
+---------------------------------------------
+Number of hidden neurons = 9
+Learning rates = 1
+Epoch：26381
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 9
+Learning rates = 1
+Epoch：10689
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 9
+Learning rates = 1
+Epoch：32572
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 9
+Learning rates = 1
+Epoch：21745
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 9
+Learning rates = 1
+Epoch：121545
+training accuracies = 99%
+testing accuracies = 93%
+Neuron 9 average epoch number is 42586
+
+---------------------------------------------
+Number of hidden neurons = 10
+Learning rates = 1
+Epoch：500000
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 10
+Learning rates = 1
+Epoch：47357
+training accuracies = 97%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 10
+Learning rates = 1
+Epoch：78987
+training accuracies = 99%
+testing accuracies = 90%
+
+---------------------------------------------
+Number of hidden neurons = 10
+Learning rates = 1
+Epoch：96243
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 10
+Learning rates = 1
+Epoch：24785
+training accuracies = 98%
+testing accuracies = 96%
+Neuron 10 average epoch number is 149474
+
+---------------------------------------------
+Number of hidden neurons = 11
+Learning rates = 1
+Epoch：9551
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 11
+Learning rates = 1
+Epoch：500000
+training accuracies = 97%
+testing accuracies = 86%
+
+---------------------------------------------
+Number of hidden neurons = 11
+Learning rates = 1
+Epoch：126493
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 11
+Learning rates = 1
+Epoch：43745
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 11
+Learning rates = 1
+Epoch：13136
+training accuracies = 99%
+testing accuracies = 93%
+Neuron 11 average epoch number is 138585
+
+---------------------------------------------
+Number of hidden neurons = 12
+Learning rates = 1
+Epoch：113425
+training accuracies = 98%
+testing accuracies = 100%
+
+---------------------------------------------
+Number of hidden neurons = 12
+Learning rates = 1
+Epoch：89544
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 12
+Learning rates = 1
+Epoch：54745
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 12
+Learning rates = 1
+Epoch：24084
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 12
+Learning rates = 1
+Epoch：78652
+training accuracies = 99%
+testing accuracies = 93%
+Neuron 12 average epoch number is 72090
+
+---------------------------------------------
+Number of hidden neurons = 13
+Learning rates = 1
+Epoch：29323
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 13
+Learning rates = 1
+Epoch：16789
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 13
+Learning rates = 1
+Epoch：500000
+training accuracies = 98%
+testing accuracies = 83%
+
+---------------------------------------------
+Number of hidden neurons = 13
+Learning rates = 1
+Epoch：9567
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 13
+Learning rates = 1
+Epoch：56288
+training accuracies = 99%
+testing accuracies = 93%
+Neuron 13 average epoch number is 122393
+
+---------------------------------------------
+Number of hidden neurons = 14
+Learning rates = 1
+Epoch：27081
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 14
+Learning rates = 1
+Epoch：30779
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 14
+Learning rates = 1
+Epoch：39163
+training accuracies = 97%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 14
+Learning rates = 1
+Epoch：69099
+training accuracies = 98%
+testing accuracies = 90%
+
+---------------------------------------------
+Number of hidden neurons = 14
+Learning rates = 1
+Epoch：131058
+training accuracies = 98%
+testing accuracies = 93%
+Neuron 14 average epoch number is 59436
+
+---------------------------------------------
+Number of hidden neurons = 15
+Learning rates = 1
+Epoch：25536
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 15
+Learning rates = 1
+Epoch：91216
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 15
+Learning rates = 1
+Epoch：15823
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 15
+Learning rates = 1
+Epoch：123839
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 15
+Learning rates = 1
+Epoch：79858
+training accuracies = 98%
+testing accuracies = 93%
+Neuron 15 average epoch number is 67254
+
+---------------------------------------------
+Number of hidden neurons = 16
+Learning rates = 1
+Epoch：56985
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 16
+Learning rates = 1
+Epoch：40201
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 16
+Learning rates = 1
+Epoch：52563
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 16
+Learning rates = 1
+Epoch：86210
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 16
+Learning rates = 1
+Epoch：500000
+training accuracies = 98%
+testing accuracies = 90%
+Neuron 16 average epoch number is 147191
+
+---------------------------------------------
+Number of hidden neurons = 17
+Learning rates = 1
+Epoch：74596
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 17
+Learning rates = 1
+Epoch：20379
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 17
+Learning rates = 1
+Epoch：500000
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 17
+Learning rates = 1
+Epoch：28419
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 17
+Learning rates = 1
+Epoch：12525
+training accuracies = 98%
+testing accuracies = 93%
+Neuron 17 average epoch number is 127183
+
+---------------------------------------------
+Number of hidden neurons = 18
+Learning rates = 1
+Epoch：13453
+training accuracies = 98%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 18
+Learning rates = 1
+Epoch：29589
+training accuracies = 99%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 18
+Learning rates = 1
+Epoch：107520
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 18
+Learning rates = 1
+Epoch：120838
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 18
+Learning rates = 1
+Epoch：59843
+training accuracies = 97%
+testing accuracies = 93%
+Neuron 18 average epoch number is 66248
+
+---------------------------------------------
+Number of hidden neurons = 19
+Learning rates = 1
+Epoch：136224
+training accuracies = 99%
+testing accuracies = 90%
+
+---------------------------------------------
+Number of hidden neurons = 19
+Learning rates = 1
+Epoch：62600
+training accuracies = 99%
+testing accuracies = 96%
+
+---------------------------------------------
+Number of hidden neurons = 19
+Learning rates = 1
+Epoch：53269
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 19
+Learning rates = 1
+Epoch：29666
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 19
+Learning rates = 1
+Epoch：37349
+training accuracies = 98%
+testing accuracies = 96%
+Neuron 19 average epoch number is 63821
+
+---------------------------------------------
+Number of hidden neurons = 20
+Learning rates = 1
+Epoch：113812
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 20
+Learning rates = 1
+Epoch：68841
+training accuracies = 99%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 20
+Learning rates = 1
+Epoch：127691
+training accuracies = 97%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 20
+Learning rates = 1
+Epoch：44011
+training accuracies = 98%
+testing accuracies = 93%
+
+---------------------------------------------
+Number of hidden neurons = 20
+Learning rates = 1
+Epoch：205280
+training accuracies = 99%
+testing accuracies = 100%
+Neuron 20 average epoch number is 111927
