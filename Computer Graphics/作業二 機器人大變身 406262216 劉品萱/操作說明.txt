@@ -1,0 +1,10 @@
+1. 點擊滑鼠中鍵可以開啟選單
+2. 選單中主要將動作分為Basic、Action 
+3. Basic裡的動作皆是用來改變某個身體部位的旋轉角度，皆可以透過滑鼠左鍵及滑鼠右鍵改變（兩個鍵呈現的效果相反）
+4. Action 裡的動作分別為以下，皆為點擊後就會機器人就會開始做動作，若要回歸初始動作即可點選動作五
+	(1) 坐下並翹腳（Sit down and cross leg）
+	(2) 拳擊（Boxing）
+	(3) 舉啞鈴（Lifting dumbbells）
+	(4) 開合跳（Open and close jump）
+	(5) 回復原始動作（Restart）
+5. exit可離開應用程式
