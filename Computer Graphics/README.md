@@ -1,13 +1,13 @@
-## °ò¥» main
+## åŸºæœ¬ main
 ```cpp=
 int main(int argc, char **argv)
 {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB | GLUT_DEPTH);
-    glutInitWindowSize(1000, 800); //³]¸mµøµ¡¤j¤p
-    glutCreateWindow("Midterm Homework"); //³]¸mµøµ¡¦WºÙ
+    glutInitWindowSize(1000, 800); //è¨­ç½®è¦–çª—å¤§å°
+    glutCreateWindow("Midterm Homework"); //è¨­ç½®è¦–çª—åç¨±
     //glutReshapeFunc(myReshape);
-    glutDisplayFunc(display2); //¥Ø«e©Òª¾¨ä¥²­n¦s¦b
+    glutDisplayFunc(display2); //ç›®å‰æ‰€çŸ¥å…¶å¿…è¦å­˜åœ¨
     glEnable(GL_DEPTH_TEST);
     glClearColorIiEXT(0, 0, 0, 1);
     glutMainLoop();
@@ -15,5 +15,5 @@ int main(int argc, char **argv)
 }
 ```
 ## Resource
-* [¤W½ÒºK­n](https://hackmd.io/91yUsQj-SBS3cZG6HC08Bg)
-* [§@·~¾ã²z](https://hackmd.io/tASW9OGSTTi9ANAW1Y9GVA)
+
+* [ä½œæ¥­æ•´ç†](https://hackmd.io/tASW9OGSTTi9ANAW1Y9GVA)
