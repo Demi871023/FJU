@@ -48,5 +48,5 @@ double BisectionMethod()
 
 int main()
 {
-    printf("==================\n\nOUtput %lf\n\n==================\n", BisectionMethod());
+    printf("==================\n\nOutput %lf\n\n==================\n", BisectionMethod());
 }
