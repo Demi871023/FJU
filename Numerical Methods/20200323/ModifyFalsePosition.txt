@@ -1,0 +1,3 @@
+Modify False Position Method
+
+Step 1 : c is -7.459075532454663 and f(-7.459075532454663) is 2.251606525599901
